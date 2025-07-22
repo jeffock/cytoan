@@ -1,14 +1,14 @@
 from setuptools import find_packages, setup
 
-with open("app/README.md", "r") as f:
+with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
     name="cytoan",
     version="0.0.1",
     description="Cell image processing & analysis library",
-    package_dir={"": "app"},
-    packages=find_packages(where="app"),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/jeffock/cytoan",

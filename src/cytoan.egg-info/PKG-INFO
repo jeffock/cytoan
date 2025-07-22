@@ -11,7 +11,7 @@ Classifier: Programming Language :: Python :: 3.12
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.12
 Description-Content-Type: text/markdown
-License-File: LICENSE.txt
+License-File: LICENSE
 Provides-Extra: dev
 Requires-Dist: pytest>=8.4.1; extra == "dev"
 Requires-Dist: twine>=6.1.0; extra == "dev"
